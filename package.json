@@ -9,7 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "build:server": "pnpm --filter server build",
     "build:web": "pnpm --filter web build",
-    "start:server": "pnpm --filter server start",
+    "start:server": "pnpm --filter start:prod",
     "start:web": "pnpm --filter web start"
   },
   "devDependencies": {
